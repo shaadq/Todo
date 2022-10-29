@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #ffd3a5;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    background-color:#fda445;
+}
+
+nav > h3 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    min-height: 86vh;
+    background-color: #ffd3a5;
+}
+
+.input-container {
+    margin: 2rem 0;
+    display: flex;
+}
+
+.input-top {
+    margin-bottom: 0.5rem;
+}
+
+.input-top__name, .input-top__select, .input-bottom {
+    font-size: 1rem;
+    padding: 0.3rem 0.8rem;
+    border-radius: 2rem;
+    border: 1px solid #333;
+}
+
+.submit-btn {
+    font-size: 2rem;
+    color: #ff8400;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.delete-btn, .edit-btn {
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.todo-container {
+    width: 1024px;
+    margin-bottom: 2rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    /* border: 1px solid #ffffff; */
+    text-align: left;
+    padding: 8px;
+    font-size: 24px;
+    border: 1px solid black;
+}
+
+th {
+    background-color: #fda445;
+    color: #fff;
+}
+
+td {
+    background-color: #fff;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#fda445;
+    color: #fff;
+    height: 6vh;
+    font-size: 0.9rem;
+}
