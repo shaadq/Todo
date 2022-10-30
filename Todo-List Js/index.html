@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <title>Todo-List</title>
+  </head>
+  <body>
+    <div class="todomain">
+      <div class="Header">To-do List</div>
+      <div class="Main-content">
+        <div class="box">
+          <div>
+            <input
+              type="text"
+              class="Activity"
+              id="inp1"
+              placeholder="Activity"
+            />
+            <select class="Dropdown" id="Dropdown">
+              <option>Low</option>
+              <option>Medium</option>
+              <option>High</option>
+            </select>
+
+            <div>
+              <input
+                type="text"
+                class="input2"
+                id="inp2"
+                placeholder="Description"
+              />
+            </div>
+            <!-- <i class="fa-solid fa-square-plus lgz" onclick="clickAdd()"></i> -->
+            <button class="button" onclick="clickAdd()" id="b1">Add</button>
+            <button id="editBtn" onclick="clickAdd()" disabled>Update</button>
+          </div>
+        </div>
+        <div class="tablecss">
+          <table id="table" class="table">
+            <thead>
+              <tr class="fdd">
+                <th>Id</th>
+                <th>Activity</th>
+                <th>Priority</th>
+                <th>Description</th>
+                <th>Delete</th>
+                <th>Edit</th>
+              </tr>
+            </thead>
+            <tbody id="tbodyy">
+              
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>

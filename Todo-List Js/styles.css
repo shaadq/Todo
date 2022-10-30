@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Rubik&display=swap");
+
+.todomain {
+  margin: auto;
+  height: 60%;
+  background-color: rgb(149, 211, 149);
+  width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Header {
+  background-color: r;
+  font-weight: 100px;
+  font-family: "Rubik", sans-serif;
+  padding-top: 50px;
+  text-align: center;
+  font-size: 40px;
+  /* font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif; */
+  margin-bottom: 40px;
+}
+
+.Main-content {
+  text-align: center;
+}
+
+table {
+  background-color: rgb(99, 184, 99);
+  width: 600px;
+  top: 30px;
+  border: 1px solid;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tr {
+  background-color: white;
+  height: 25px;
+}
+
+.tablecss {
+  margin-top: 20px;
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+}
+
+input,
+#Dropdown {
+  border: none;
+  width: 300px;
+  margin-top: 5px;
+  border-radius: 5px;
+  height: 30px;
+  padding-left: 8px;
+  font-family: "Rubik", sans-serif;
+}
+
+input:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+  /* background-color: rgb(204, 231, 203); */
+}
+
+button {
+  background-color: cornflowerblue;
+  margin-top: 10px;
+  border-radius: 5px;
+  height: 30px;
+  padding-left: 8px;
+  width: 100px;
+}
+
+.button:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+
+.button:disabled {
+  cursor: no-drop;
+  box-shadow: none;
+}
+
+#editBtn:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+
+#editBtn:disabled {
+  cursor: no-drop;
+  box-shadow: none;
+}
+::placeholder {
+  font-family: Arial, Helvetica, sans-serif;
+}
